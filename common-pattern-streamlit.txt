@@ -1,0 +1,10 @@
+1. to provide python variables in streamlit markdown
+
+text = f"""<p class="your-class-here">your {variable} here</p>"""
+st.markdown(text, unsafe_allow_html=True)
+
+---------------------------------------------------------
+
+2. to provide markdown to use custom native css
+
+st.markdown('<p class="your-class-here">your-text-here</p>', unsafe_allow_html=True)
